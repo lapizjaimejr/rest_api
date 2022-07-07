@@ -102,7 +102,7 @@ class _NoteListState extends State<NoteList> {
 
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                       content: Text(message),
-                      duration: new Duration(milliseconds: 1000),
+                      duration: Duration(milliseconds: 1000),
                     ));
 
                     return deleteResult.data ?? false;
